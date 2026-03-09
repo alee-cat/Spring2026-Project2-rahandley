@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/DancingScript-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+#query {
+    padding: 10px;
+    width: 320px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#searchResults {
+    display: none;
+    margin-top: 30px;
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    padding: 20px;
+    border-radius: 10px;
+    
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: left;
+}
+
+#catGif {
+    width: 50px;
+    vertical-align: middle;
+    margin-left: 10px;
+    transform: translateY(-5px);
+}
+
+#time {
+    display: none;
+}
